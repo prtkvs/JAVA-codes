@@ -1,0 +1,100 @@
+	Character Name	ASCII code
+!	Exclamation point	33
+“	Double quotation	34
+#	Number sign	35
+$	Dollar sign	36
+%	Percent sign	37
+&	ampersand	38
+‘	apostrophe	39
+(	Left parenthesis	40
+)	Right parenthesis	41
+*	asterisk	42
++	Plus sign	43
+,	comma	44
+–	hyphen	45
+.	period	46
+/	slash	47
+0	zero	48
+1	one	49
+2	two	50
+3	three	51
+4	four	52
+5	five	53
+6	six	54
+7	seven	55
+8	eight	56
+9	nine	57
+:	colon	58
+;	semi-colon	59
+<	Less-than sign	60
+=	Equals sign	61
+>	Greater-than sign	62
+?	Question mark	63
+@	At sign	64
+
+	Character Name	ASCII code
+com.prtk.introduction.A	Uppercase a	65
+B	Uppercase b	66
+C	Uppercase c	67
+D	Uppercase d	68
+E	Uppercase e	69
+F	Uppercase f	70
+G	Uppercase g	71
+H	Uppercase h	72
+I	Uppercase i	73
+J	Uppercase j	74
+K	Uppercase k	75
+L	Uppercase l	76
+M	Uppercase m	77
+N	Uppercase n	78
+O	Uppercase o	79
+P	Uppercase p	80
+Q	Uppercase q	81
+R	Uppercase r	82
+S	uppercases	83
+T	Uppercase t	84
+U	Uppercase u	85
+V	Uppercase v	86
+W	Uppercase w	87
+X	Uppercase x	88
+Y	Uppercase y	89
+Z	Uppercase z	90
+[	Left square bracket	91
+\	backslash	92
+]	Right square bracket	93
+^	caret	94
+_	underscore	95
+`	Grave accent	96
+
+
+    Character Name	ASCII code
+a	Lowercase a	97
+b	Lowercase b	98
+c	Lowercase c	99
+d	Lowercase d	100
+e	Lowercase e	101
+f	Lowercase f	102
+g	Lowercase g	103
+h	Lowercase h	104
+i	Lowercase i	105
+j	Lowercase j	106
+k	Lowercase k	107
+l	Lowercase l	108
+m	Lowercase m	109
+n	Lowercase n	110
+o	Lowercase o	111
+p	Lowercase p	112
+q	Lowercase q	113
+r	Lowercase r	114
+s	Lowercase s	115
+t	Lowercase t	116
+u	Lowercase u	117
+v	Lowercase v	118
+w	Lowercase w	119
+x	Lowercase x	120
+y	Lowercase y	121
+z	Lowercase z	122
+{	Left curly brace	123
+|	Vertical bar	124
+}	Right curly brace	125
+~	tilde	126
