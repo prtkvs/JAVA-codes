@@ -2,22 +2,28 @@ import java.util.Scanner;
 
 public class Prime_Number {
     public static void main(String[] args) {
-        Scanner input= new Scanner(System.in);
-        System.out.println("enter a number:");
-        int n= input.nextInt();
+        Scanner in = new Scanner(System.in);
+        System.out.println("Please enter a number");
+        int n = in.nextInt();
         if(n<=1){
-            System.out.println("Neither prime nor composite");
+            System.out.println("Nither prime nor composite");
             return;
         }
-        if(n==2){
-            System.out.println("Special Prime Number");
-            return;
-        }
-        if(n%2==0){
+        int c=2;
+        if(n==4){
             System.out.println("Not Prime");
         }
         else{
-            System.out.println("Prime");
+            while(c*c<n){
+                if (n%c==0){
+                    System.out.println("Not Prime");
+                    return;
+                }
+                c=c+1;
+            }
+            if(c*c>n){
+                System.out.println("Prime");
+            }
         }
     }
 }
