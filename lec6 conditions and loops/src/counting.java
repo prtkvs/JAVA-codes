@@ -28,16 +28,20 @@ public class counting {
 //
 //        System.out.println(count);
         Scanner in = new Scanner(System.in);
-        int count=0;
         int Fn = in.nextInt();
         int Sn = in.nextInt();
-        while(Fn>0){
-            int rem=Fn%10;
-            if(rem==Sn){
-                count++;
+        if (Fn == 0 && Sn ==0) {
+            System.out.println(1);
+        } else {
+            int count = 0;
+            while (Fn > 0) {
+                int rem = Fn % 10;
+                if (rem == Sn) {
+                    count++;
+                }
+                Fn /= 10;
             }
-            Fn/=10;
+            System.out.println(count);
         }
-        System.out.println(count);
     }
 }
