@@ -5,7 +5,7 @@ public class Arraylist {
     public static void main(String[] args) {
         //syntax
         Scanner in = new Scanner(System.in);
-        ArrayList<Integer> list = new ArrayList<>(10);
+        ArrayList<Integer> list = new ArrayList<>(4);
         list.add(55);
         list.add(553);
         list.add(551);
