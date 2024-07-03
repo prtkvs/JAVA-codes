@@ -5,7 +5,7 @@ public class returningvalues {
         int ans = sum3(67,87) ;
         System.out.println(ans);
 //part 3
-}                                                    //revise this
+}                                                    //revise this --> //done
 static int sum3(int a , int b){
         int sum = a+b;
         return sum;

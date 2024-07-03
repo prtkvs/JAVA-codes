@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Fibonacci {  //0,0,1,2,3,5,8,13,.....
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

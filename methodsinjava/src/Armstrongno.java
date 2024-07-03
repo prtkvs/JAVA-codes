@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Armstrongno {
+public class Armstrongno {     //e.g 153 => 1^3+5^3+3^3=153 Yes!
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("enter the number:");

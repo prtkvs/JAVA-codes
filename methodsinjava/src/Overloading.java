@@ -1,4 +1,4 @@
-public class Overloading {
+public class Overloading {                     //When 2 or more functions have same name
     public static void main(String[] args) {
        fun(55);
        fun("Prateek");

@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Main {     //calling sum
+public class Main {
     public static void main(String[] args) {
-        int ans = sum2(); //for int, we have to determine a variable and get output in the call itself.
+        int ans = sum2(); //calling sum2
         System.out.println(ans);
     }
 
@@ -13,7 +13,7 @@ public class Main {     //calling sum
         System.out.print("Enter second number:");
         int num2 = input.nextInt();
         int sum = num1 + num2;
-        return sum; //in order to initiate towards call, to get output
+        return sum; //to get output
         // System.out.println("this will never execute"); anything written after return
         //statement it will never execute.
     }
@@ -26,6 +26,5 @@ public class Main {     //calling sum
         int num2 = input.nextInt();
         int sum = num1 + num2;
         System.out.println("sum=" + sum);
-//        }
     }
 }
