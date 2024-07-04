@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/out/production/Recrsion/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/FibonacciNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/NumbersExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/NumbersExampleRecursion.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODING PRTK/JAVA/JAVA-codes/Trees&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/CODING PRTK/JAVA/JAVA-codes/Trees",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lec6 conditions and loops" />
@@ -65,16 +69,5 @@
       <updated>1719780715800</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Recrsion/src/BinarySearch.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
