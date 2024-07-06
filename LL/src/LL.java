@@ -79,19 +79,20 @@ public class LL {
     }
 
     public int deleteLast() {
-        if (size <= 1) {
+        if (size <= 1) {    //null items
             return deleteLast();
         }
-        Node secondLast = get(size - 2);
+        Node secondLast = get(size - 2);    //get method below
         int value = tail.value;
-        tail = secondLast;
+        tail = secondLast;      //since putting secondLast as tail not tail as secondLast
         tail.next = null;
+        size--;
         return value;
     }
 
     public Node get(int index) {            //for deleting last
         Node node = head;
-        for (int i = 0; i < index; i++) {
+        for (int i = 0; i < index; i++) {     //zero since node is an item of LL
             node = node.next;
         }
         return node;
@@ -103,10 +104,11 @@ public class LL {
         if (index==size-1){
             return deleteLast();
         }
-        Node prev = get(index);
-        int value = prev.next.value;
+        Node prev = get(index-1);          //index-1 becoz previous is behind that index i.e to be deleted
+        int value = prev.next.value;   //not prev.value.next since you're not taking the value and doing next rather you're taking next one's value.
         //now to break the older chain
         prev.next= prev.next.next;
+        size--;
         return value;
     }
     public void display(){
