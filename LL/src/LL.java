@@ -1,4 +1,17 @@
 public class LL {
+    private class Node{
+        private int value;
+        private Node next;
+
+        public Node(int value) {
+            this.value = value;
+        }
+
+        public Node(int value, Node next) {   //overloading of Node
+            this.value = value;
+            this.next = next;
+        }
+    }
     private Node head;
     private Node tail;
     int size;
@@ -36,12 +49,12 @@ public class LL {
         if (index == size) {
             insertLast(value);
         }
-        Node temp = head;                 //already know that node cannot be moved this way till the index so usko temp mein store karke chalao.
-        for (int i = 1; i < index; i++) {
-            temp = temp.next;
+        Node temp = head;                 //already know that head cannot be moved this way till the index so usko temp mein store karke chalao.
+        for (int i = 1; i < index; i++) {   //i.e if the index is 3 , you have to go till 2  and starting from 1 since 0 is head itself from where temp is starting
+            temp = temp.next;    //reaches till 2nd index
         }
-        Node node = new Node(value, temp.next);   //create that node to insert in between
-        temp.next = node;                        //place it at temp after reaching next at index
+        Node node = new Node(value, temp.next);   //create that node to insert in between. There the value is something e.g 7 and temp.next to connect it with next one(3rd index) 7->8(now 4th index)
+        temp.next = node;                        //assigning 3rd index to 7 (9->7->8)
         size++;
     }
 //    public Node find(int value){
@@ -104,20 +117,5 @@ public class LL {
         }
         System.out.println("END");
     }
-
-    private class Node{
-        private int value;
-        private Node next;
-
-        public Node(int value) {
-            this.value = value;
-        }
-
-        public Node(int value, Node next) {
-            this.value = value;
-            this.next = next;
-        }
-    }
-
 }
 
