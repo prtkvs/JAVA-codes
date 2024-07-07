@@ -10,7 +10,7 @@ public class MatrixMultiplication {
         System.out.println("Enter the data in matrix A:-");
         int[][] one = new int[r1][c1];
         for (int i = 0; i <one.length ; i++) {
-            for (int j = 0; j <one[0].length ; j++) {   //conventional way of storing columns , since row fixed(prefer notes)
+            for (int j = 0; j <one[i].length ; j++) {   //colums always depends on row
                 one[i][j] = sc.nextInt();
             }
         }
@@ -21,7 +21,7 @@ public class MatrixMultiplication {
         System.out.println("Enter the data in matrix B:-");
         int[][] two = new int[r2][c2];
         for (int i = 0; i <two.length ; i++) {
-            for (int j = 0; j <two[0].length ; j++) {
+            for (int j = 0; j <two[i].length ; j++) {
                 two[i][j] = sc.nextInt();
             }
         }
@@ -30,14 +30,14 @@ public class MatrixMultiplication {
         }
         int[][] prd = new int[r1][c2];
         for (int i = 0; i < prd.length ; i++) {
-            for (int j = 0; j <prd[0].length ; j++) {
+            for (int j = 0; j <prd[i].length ; j++) {
                 for (int k = 0; k <c1; k++) {
                     prd[i][j] += one[i][k] * two[k][j];
                 }
             }
         }
         for (int i = 0; i < prd.length ; i++) {
-            for (int j = 0; j <prd[0].length ; j++) {
+            for (int j = 0; j <prd[i].length ; j++) {
                 System.out.print(prd[i][j]+ " ");
                 }
             System.out.println();

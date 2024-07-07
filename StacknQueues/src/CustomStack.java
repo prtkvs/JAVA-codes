@@ -2,8 +2,6 @@ public class CustomStack {
     protected int[] data;
     private static final int DEFAULT_SIZE = 10;
 
-    int ptr = -1;
-
     public CustomStack(){
         this(DEFAULT_SIZE);
     }
@@ -12,13 +10,15 @@ public class CustomStack {
         this.data = new int[size];
     }
 
+    int ptr = -1;
+
     public boolean push(int item) {
+        ptr++;
+        data[ptr] = item;
         if (isFull()) {
             System.out.println("Stack is full!!");
             return false;
         }
-        ptr++;
-        data[ptr] = item;
         return true;
     }
 
