@@ -40,4 +40,3 @@ public class OrderAgnostic {
             return -1;
         }
     }
-}
