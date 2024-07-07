@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LL/src/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/src/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LL/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/src/CircularLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/src/CircularLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/src/DoublyLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LL/src/DoublyLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/CircularLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/CircularLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/DoublyLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/DoublyLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/LL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LL/Main3.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,11 +1,29 @@
 public class DoublyLL {
-        private Node head;
+    //defining
+    private class Node{
+        int value;
+        Node next;
+        Node prev;
+
+        public Node(int value) {
+            this.value = value;
+        }
+
+        public Node(int value, Node next, Node prev) {
+            this.value = value;
+            this.next = next;
+            this.prev = prev;
+        }
+    }
+        private Node head;     //tail is not declared in DLL
+
+    //implementation starts from here
         public void insertFirst(int value){
             Node node = new Node(value);
             node.next=head;
             node.prev=null;
-            if(head!=null){
-                head.prev=node;
+            if(head!=null){   //then only this criteria
+                head.prev=node;   //head null hua toh piche kaha jaoge
             }
             head = node;
         }
@@ -21,7 +39,7 @@ public class DoublyLL {
             while(last.next!=null){
                 last = last.next;
             }
-            last.next= node;
+            last.next= node;     //check notes //main concept
             node.prev=last;
         }
         public Node find(int value){                  //copy with caution
@@ -41,7 +59,7 @@ public class DoublyLL {
                 return;
             }
             Node node = new Node(value) ;           //box needed to be inserted is created
-            node.next = p.next;
+            node.next = p.next;                     //linkage broken
             p.next = node;
             node.prev= p;
             if (node.next!=null) {                 //since this will create null pointer exception
@@ -54,7 +72,7 @@ public class DoublyLL {
             Node last = null;
             while(node!=null){
                 System.out.print(node.value+" -> ");
-                last = node;
+                last = node;        //to use these node to print backwards
                 node= node.next;
             }
             System.out.println("End");
@@ -62,26 +80,12 @@ public class DoublyLL {
             System.out.println("Print in reverse");
 
             while(last!= null){
-                System.out.print(last.value+" -> ");
+                System.out.print(last.value+" <- ");
                 last = last.prev;
             }
             System.out.println("START");
             System.out.println();
         }
-        private class Node{
-            int value;
-            Node next;
-            Node prev;
 
-            public Node(int value) {
-                this.value = value;
-            }
-
-            public Node(int value, Node next, Node prev) {
-                this.value = value;
-                this.next = next;
-                this.prev = prev;
-            }
-        }
     }
 
