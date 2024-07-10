@@ -48,7 +48,8 @@ public class MatrixSum {
                 }
                 System.out.println();
             }
-
+        }else {
+            System.out.println("matrices cannot be added");
         }
     }
 }
