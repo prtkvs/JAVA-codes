@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary Search/Ceiling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary Search/OrderAgnostic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary Search/binarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary Search/floor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary Search/searchinMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/src/bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/bubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
