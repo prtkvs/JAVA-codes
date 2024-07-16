@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec6 conditions and loops/lec6 conditions and loops.iml" filepath="$PROJECT_DIR$/lec6 conditions and loops/lec6 conditions and loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/methodsinjava/methodsinjava.iml" filepath="$PROJECT_DIR$/methodsinjava/methodsinjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
     </modules>
   </component>
 </project>
