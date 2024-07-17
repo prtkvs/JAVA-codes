@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/introduction/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/FibonacciNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/introduction/FibonacciNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/introduction/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/NumbersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/introduction/NumbersExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/NumbersExampleRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/introduction/NumbersExampleRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/numOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/numOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recrsion/src/inArrays/sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/inArrays/sorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
