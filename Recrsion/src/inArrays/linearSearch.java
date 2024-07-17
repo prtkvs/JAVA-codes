@@ -11,6 +11,9 @@ public class linearSearch {
         System.out.println(findIndexLast(nums,89,nums.length-1));   //5, since starting from last index
         findAllIndex(nums,89,0);
         System.out.println(list);
+//        System.out.println(findAllIndex2(nums,89,0,list)); or,
+        ArrayList<Integer> ans = findAllIndex2(nums,89,0,list);
+        System.out.println(ans);
     }
 
 
@@ -45,5 +48,11 @@ public class linearSearch {
             list.add(index);
         }
         findAllIndex(arr,target,index+1);
+    }
+    static ArrayList<Integer> findAllIndex2(int [] arr,int target , int index , ArrayList<Integer>list){    //return type is ArrayList
+        if (index == arr.length){
+            return list;
+        }
+        return findAllIndex2(arr,target,index+1,list);
     }
 }
