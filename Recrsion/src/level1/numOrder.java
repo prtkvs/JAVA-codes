@@ -2,9 +2,9 @@ package level1;
 
 public class numOrder {
     public static void main(String[] args) {
-        numDsc(5);
-        System.out.println();
         numAsc(5);
+        System.out.println();
+        numDsc(5);
         System.out.println();
         System.out.println("Factorial: " + fact(5));
         System.out.println("Sum: "+ sum(5));
@@ -12,18 +12,18 @@ public class numOrder {
         System.out.println("Product of Digits: " + prodDigit(505));
         concept(5);
     }
-    static void numAsc(int n){
-        if (n==0){
-            return;
-        }
-        System.out.print(n);
-        numAsc(n-1);
-    }
     static void numDsc(int n){
         if (n==0){
             return;
         }
+        System.out.print(n);
         numDsc(n-1);
+    }
+    static void numAsc(int n){
+        if (n==0){
+            return;
+        }
+        numAsc(n-1);
         System.out.print(n);  //V.easy think (ya debug kr ke check kr lo)
     }
     static int fact(int n){
