@@ -6,23 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/level1/numOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/numOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/level1/reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recrsion/src/level1/steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recrsion/src/level1/steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/Patterns/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/inArrays/linearSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/inArrays/rotatedBS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/inArrays/sorted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/introduction/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/introduction/FibonacciNo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/introduction/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/introduction/NumbersExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/introduction/NumbersExampleRecursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/level1/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/level1/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/level1/numOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recrsion/level1/reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/src/insertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/insertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +44,13 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mergeSort" />
+      <module name="sorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lec6 conditions and loops" />
       <method v="2">
@@ -74,6 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.mergeSort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,15 +92,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Recrsion/src/inArrays/sorted.java</url>
-          <line>7</line>
-          <properties class="inArrays.sorted" method="sorted">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
