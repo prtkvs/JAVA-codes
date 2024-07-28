@@ -59,7 +59,7 @@ class BST {
         }
     }
 
-    public void populatedSorted(int[] nums) {
+    public void populatedSorted(int[] nums) {       //for sorted array preventing from unbalanced tree
         populatedSorted(nums, 0, nums.length);
     }
 
@@ -71,8 +71,8 @@ class BST {
         int mid = (start + end) / 2;
 
         this.insert(nums[mid]);
-        populatedSorted(nums, start, mid);
-        populatedSorted(nums, mid + 1, end);
+        populatedSorted(nums, start, mid);      //LHS
+        populatedSorted(nums, mid + 1, end);    //RHS
     }
 
     public boolean balanced() {
@@ -98,5 +98,5 @@ class BST {
         display(node.left, "Left child of " + node.value + " : ");
         display(node.right, "Right child of " + node.value + " : ");
     }
-
+        // refer new notes every func. will be crystal clear
 }

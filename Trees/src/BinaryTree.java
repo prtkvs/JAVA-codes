@@ -21,28 +21,29 @@ public class BinaryTree {
         populate(scanner,root);
     }
     private void populate(Scanner scanner, Node node){
-        System.out.println("Do you want to enter left of: "+ node.value);
+        System.out.println("Do you want to enter left of: "+ node.value); //initially node.value is root node which changes as nodes inserted
         boolean left = scanner.nextBoolean();  //left check
-        if(left){
+        if(left){  //same as if(left == true)
             System.out.println("Enter the left of: "+node.value);
             int value = scanner.nextInt();
-            node.left= new Node(value);
-            populate(scanner,node.left);
-            }
+            node.left= new Node(value);     //create a new node out of it
+            populate(scanner,node.left);    //call (recursion)populate again for newly created left node
+            } //if left == false :-
         System.out.println("Do you want to enter right of: "+ node.value);
-        boolean right = scanner.nextBoolean();  //left check
+        boolean right = scanner.nextBoolean();  //right check
         if(right){
             System.out.println("Enter the right of: "+node.value);
             int value = scanner.nextInt();
-            node.right= new Node(value);
+            node.right= new Node(value);            //literally copy & paste of left concept
             populate(scanner , node.right);
         }
+        //no base condition (since jitna bada tree banana ho bana skte hai) for user
     }
-    public void display(){
+    public void display(){         ///display of the tree
         display(this.root,"");
     }
-    private void display(Node node , String indent){
-        if(node==null){
+    private void display(Node node , String indent){        //indentation is the way of representing the code ! (career essentials for SD microsoft lecture notes)
+        if(node==null){     //base condition
             return;
         }
         System.out.println(indent+node.value);
