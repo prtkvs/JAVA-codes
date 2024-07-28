@@ -93,8 +93,8 @@
         p.left=t;
 
         //updating heights
-        p.height = Math.max(height(p.left),height(p.right)+1);
-        c.height = Math.max(height(c.left),height(c.right)+1);
+        p.height = Math.max(height(p.left),height(p.right))+1;
+        c.height = Math.max(height(c.left),height(c.right))+1;
 
         // after rotation c is the node
         return c;
@@ -109,8 +109,8 @@
         c.right = t;
 
         //updating heights
-        p.height = Math.max(height(p.left),height(p.right)+1);
-        c.height = Math.max(height(c.left),height(c.right)+1);
+        c.height = Math.max(height(c.left),height(c.right))+1;
+        p.height = Math.max(height(p.left),height(p.right))+1;
 
         return p; //since after rotation c is the node
     }
@@ -124,7 +124,7 @@
 
      public static void main(String[] args) {
          AVL tree = new AVL();
-         for (int i = 0; i < 1000 ; i++) {
+         for (int i = 0; i < 10 ; i++) {
              tree.insert(i);
          }
          System.out.println(tree.height());
