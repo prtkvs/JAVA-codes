@@ -122,6 +122,7 @@
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
 
+    //Main function
      public static void main(String[] args) {
          AVL tree = new AVL();
          for (int i = 0; i < 10 ; i++) {
