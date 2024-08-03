@@ -1,13 +1,9 @@
 package introduction;
 
-import java.util.Scanner;
-
 public class FibonacciNo {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("enter the value of n:");
-        int n= in.nextInt();
-    int ans = fibo(n);
+        int n=4;
+        int ans = fibo(n);
         System.out.println(ans);
     }
     static int fibo(int n){
