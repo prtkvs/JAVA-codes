@@ -5,7 +5,7 @@ public class knapsack01 {
         int[] val = {15, 14, 10, 45, 30};
         int[] wt = {1, 5, 1, 3, 4};
         int W = 7;
-        System.out.println(knapsack(val, wt, W, val.length));
+        System.out.println(knapsack(val, wt, W, val.length)); // val.length since going from last to 0
     }
 
     public static int knapsack(int[] val, int[] wt, int W, int n) { //no. of the item we're talking about
