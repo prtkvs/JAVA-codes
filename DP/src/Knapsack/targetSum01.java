@@ -1,6 +1,6 @@
 package Knapsack;
 
-public class targetSum {
+public class targetSum01 {
     public static boolean targetSumSubset(int[] arr,int sum){
         int n = arr.length;     // no. of items
         boolean[][] dp = new boolean[n+1][sum+1];
