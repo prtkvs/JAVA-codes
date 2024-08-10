@@ -8,8 +8,8 @@ public class practice {
         String personalized = greeting(name);
         System.out.println(personalized);
     }
-    static String greeting(String name){
-        String message = "hello "+ name;
+    static String greeting(String naam){
+        String message = "hello "+ naam;
         return message;
     }
 }

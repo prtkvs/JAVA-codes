@@ -21,7 +21,7 @@ public class returningstring {
     }
 
     static String myGreet(String naam) {
-        naam = "Prateek";
+        naam = "Prateek";   // updated
         return naam;
     }
 }
