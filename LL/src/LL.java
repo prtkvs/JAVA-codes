@@ -49,7 +49,7 @@ public class LL {
         if (index == size) {
             insertLast(value);
         }
-        Node temp = head;                 //already know that head cannot be moved this way till the index so usko temp mein store karke chalao.
+        Node temp = head;  //already know that head cannot be moved this way till the index so usko temp mein store karke chalao.
         for (int i = 1; i < index; i++) {   //i.e if the index is 3 , you have to go till 2  and starting from 1 since 0 is head itself from where temp is starting
             temp = temp.next;    //reaches till 2nd index
         }
