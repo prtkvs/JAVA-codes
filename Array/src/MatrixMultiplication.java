@@ -10,7 +10,7 @@ public class MatrixMultiplication {
         System.out.println("Enter the data in matrix A:-");
         int[][] one = new int[r1][c1];
         for (int i = 0; i <one.length ; i++) {
-            for (int j = 0; j <one[i].length ; j++) {   //colums aldp depends on row
+            for (int j = 0; j <one[i].length ; j++) {   //colums also depends on row
                 one[i][j] = sc.nextInt();
             }
         }
@@ -26,7 +26,7 @@ public class MatrixMultiplication {
             }
         }
         if (c1!=r2){
-            System.out.println("Invalid Input");
+            System.out.println("Not possible");
         }
         int[][] prd = new int[r1][c2];
         for (int i = 0; i < prd.length ; i++) {

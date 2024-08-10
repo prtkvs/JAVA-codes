@@ -14,9 +14,9 @@ public class MatrixSum {
                 matA[i][j] = sc.nextInt();
             }
         }
-        System.out.print("Enter second row: ");
+        System.out.print("Enter second's row: ");
         int r2 = sc.nextInt();
-        System.out.print("Enter second column: ");
+        System.out.print("Enter second's column: ");
         int c2 = sc.nextInt();
         int[][] matB = new int[r2][c2];
         System.out.println("Enter the data in matrix B:-");
@@ -32,6 +32,7 @@ public class MatrixSum {
             }
             System.out.println();
         }
+        System.out.println();
         System.out.println("Second Matrix B:-");
         for (int i = 0; i < matB.length ; i++) {
             for (int j = 0; j <matB[i].length ; j++) {
@@ -39,6 +40,7 @@ public class MatrixSum {
             }
             System.out.println();
         }
+        System.out.println();
         if (r1==r2 && c1==c2){
             System.out.println("Sum of MatrixA and MatrixB is :-");
             for (int i = 0; i < matA.length ; i++) {
