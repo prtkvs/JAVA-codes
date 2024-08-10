@@ -36,7 +36,7 @@ public class DoublyLL {
                 head = node;
                 node.prev= null;
             }
-            while(last.next!=null){
+            while(last.next!=null){   // only becoz of this it will reach till last from head
                 last = last.next;
             }
             last.next= node;     //check notes //main concept
@@ -62,7 +62,7 @@ public class DoublyLL {
             node.next = p.next;                     //linkage broken
             p.next = node;
             node.prev= p;
-            if (node.next!=null) {                 //since this will create null pointer exception
+            if (node.next!=null) {            //since this will create null pointer exception
                 node.next.prev = node;
             }
         }
