@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int ans = sum2(); //calling sum2
         System.out.println(ans);
+        sum();
     }
 
     static int sum2() {
@@ -17,7 +18,7 @@ public class Main {
         // System.out.println("this will never execute"); anything written after return
         //statement it will never execute.
     }
-    //no usages
+    //no usages (if not called)
     static void sum() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first number:");
