@@ -6,6 +6,6 @@ public class Performance {
             series+=ch;
         }
         System.out.println(series);
-        //aree Prince Charles hindi wala sunao be**
+        //aye Prince Charles hindi wala sunao be**
     }
 }
