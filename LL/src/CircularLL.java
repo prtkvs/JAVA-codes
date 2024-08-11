@@ -51,6 +51,6 @@ public class CircularLL {
                 node = node.next;
             }while(node!=head);
         }
-        System.out.println("Points to Head");
+        System.out.println("Pointing to Head");
     }
 }
