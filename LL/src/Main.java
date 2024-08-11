@@ -5,6 +5,8 @@ public class Main {
         LL list = new LL();
         list.insertFirst(3);
         list.insertFirst(5);
+        list.insertFirst(10);
+        list.insertFirst(12);
         list.insertFirst(6);
         list.insertFirst(11);
         list.insertFirst(17); //newly added at initial therefore it will be head
@@ -16,6 +18,8 @@ public class Main {
         System.out.println(list.deleteLast());
         list.display();
         System.out.println(list.deleteIndex(3));
+        list.display();
+        list.insertRec(89,2);
         list.display();
     }
 }
