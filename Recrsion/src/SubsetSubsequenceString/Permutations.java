@@ -4,17 +4,17 @@ import java.util.ArrayList;
 
 public class Permutations {
     public static void main(String[] args) {
-//        permutations("", "abc");
+        permutations("", "abc");
 
 //        ArrayList<String> ans = permutationsList("", "abc");
 //        System.out.println(ans);
 
-        System.out.println(permutationsCount("", "abcd"));
+        //System.out.println(permutationsCount("", "abcd"));
     }
 
     static void permutations(String p, String up) {
         if (up.isEmpty()) {
-            System.out.println(p);
+            System.out.print(p+ " ");
             return;
         }
         char ch = up.charAt(0);

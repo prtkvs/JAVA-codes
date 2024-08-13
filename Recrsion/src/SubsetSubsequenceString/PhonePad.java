@@ -4,8 +4,10 @@ import java.util.ArrayList;
 
 public class PhonePad {
     public static void main(String[] args) {
-        System.out.println(padRet("", "12").size());
+        System.out.println(padRet("", "12"));
         System.out.println(padCount("", "12"));
+        // use above directly as :-
+        System.out.println(padRet("", "12").size());
     }
 
     static void pad(String p, String up) {
