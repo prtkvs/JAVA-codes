@@ -90,7 +90,7 @@ public class Maze {
             return;
         }
 
-        if (!maze[r][c]) {
+        if (!maze[r][c]) {      //if (maze[r][c] == false)
             return;
         }
 

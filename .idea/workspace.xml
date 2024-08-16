@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/src/AllPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/src/AllPaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backtracking/src/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/src/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +140,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Backtracking/src/Maze.java</url>
+          <line>86</line>
+          <properties class="Maze" method="pathRestrictions">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Greedy/src/fractionalKnapsack.java</url>
