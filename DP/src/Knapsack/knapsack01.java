@@ -11,7 +11,7 @@ public class knapsack01 {
                 dp[i][j] = -1;
             }
         }
-        System.out.println(knapsack(val, wt, W, val.length)); // val.length since going from last to 0
+        System.out.println(knapsack(val, wt, W, wt.length)); // val.length or wt.length since going from last to 0
         System.out.println(knapsackmemo(val, wt, W, val.length,dp));
         System.out.println(knapsackTab(val,wt,W));
        // print(dp); don't call here this bcoz it's of tabulation dp
