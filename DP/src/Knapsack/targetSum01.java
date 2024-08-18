@@ -9,7 +9,7 @@ public class targetSum01 {
             dp[i][0] = true; // since if the weight are zero then by taking null set we can achieve that
         }
         for (int i=1; i<n+1 ; i++){
-            for (int j = 0; j < sum+1; j++) {
+            for (int j = 1; j < sum+1; j++) {
                 int v = arr[i-1]; // value
                 // include
                 if (v<=j && dp[i-1][j-v] == true ){
