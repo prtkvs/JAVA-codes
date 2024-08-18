@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/src/AllPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/src/AllPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/src/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/src/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="DP" />
@@ -102,9 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.PhonePad" />
         <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.mergeSort" />
       </list>
     </recent_temporary>
@@ -149,6 +147,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Backtracking/src/AllPaths.java</url>
+          <line>50</line>
+          <properties class="AllPaths" method="allPathPrint">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Greedy/src/fractionalKnapsack.java</url>

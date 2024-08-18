@@ -21,8 +21,8 @@ public class knapsack01 {
         if (n == 0 || W == 0) {
             return 0;
         }
-        //now since first item is stored at 0th index
-        if (wt[n - 1] <= W) {    // valid
+        //valid
+        if (wt[n - 1] <= W) {    //since first item is stored at 0th index
             // include
             int ans1 = val[n - 1] + knapsack(val, wt, W - wt[n - 1], n - 1);
             // exclude
