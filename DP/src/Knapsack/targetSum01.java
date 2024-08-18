@@ -6,7 +6,7 @@ public class targetSum01 {
         boolean[][] dp = new boolean[n+1][sum+1];
         //initializing
         for (int i = 0; i < n+1; i++) {
-            dp[i][0] = true;
+            dp[i][0] = true; // since if the weight are zero then by taking null set we can achieve that
         }
         for (int i=1; i<n+1 ; i++){
             for (int j = 0; j < sum+1; j++) {
