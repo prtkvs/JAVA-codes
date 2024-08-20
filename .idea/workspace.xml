@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/ClimbingStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/Knapsack/knapsack01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/Knapsack/rodCutting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/Knapsack/targetSum01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/Knapsack/unboundedKnapsack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/LCS/longestIncreasingSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/LCS/longestcommonSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/LCS/memoLcs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/LCS/recLcs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DP/LCS/tabLcs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/src/LCS/stringConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/DP/src/LCS/stringConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
