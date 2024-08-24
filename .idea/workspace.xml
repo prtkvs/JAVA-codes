@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.catalanMemo">
+  <component name="RunManager" selected="Application.catalanTab">
     <configuration name="WildcardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WildcardMatching" />
       <module name="DP" />
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="editDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.editDistance" />
+    <configuration name="catalanTab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CatalanNumber.catalanTab" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LCS.*" />
+          <option name="PATTERN" value="CatalanNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.catalanTab" />
         <item itemvalue="Application.catalanMemo" />
         <item itemvalue="Application.catalanRec" />
         <item itemvalue="Application.WildcardMatching" />
         <item itemvalue="Application.stringConversion" />
-        <item itemvalue="Application.editDistance" />
       </list>
     </recent_temporary>
   </component>
