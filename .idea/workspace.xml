@@ -44,10 +44,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WildcardMatching">
+  <component name="RunManager" selected="Application.catalanRec">
     <configuration name="WildcardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WildcardMatching" />
       <module name="DP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="catalanRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CatalanNumber.catalanRec" />
+      <module name="DP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CatalanNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,19 +80,6 @@
     </configuration>
     <configuration name="longestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LCS.longestIncreasingSubsequence" />
-      <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LCS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="longestcommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS.longestcommonSubstring" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.catalanRec" />
         <item itemvalue="Application.WildcardMatching" />
         <item itemvalue="Application.stringConversion" />
         <item itemvalue="Application.editDistance" />
         <item itemvalue="Application.longestIncreasingSubsequence" />
-        <item itemvalue="Application.longestcommonSubstring" />
       </list>
     </recent_temporary>
   </component>
