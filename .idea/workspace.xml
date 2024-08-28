@@ -44,22 +44,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.mcmMem">
+  <component name="RunManager" selected="Application.minimumPartitioning">
     <configuration name="catalanMemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CatalanNumber.catalanMemo" />
-      <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CatalanNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="catalanRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CatalanNumber.catalanRec" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -110,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="minimumPartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Knapsack.minimumPartitioning" />
+      <module name="DP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Knapsack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lec6 conditions and loops" />
       <method v="2">
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.minimumPartitioning" />
         <item itemvalue="Application.mcmMem" />
         <item itemvalue="Application.mcmRec" />
         <item itemvalue="Application.catalanTab" />
         <item itemvalue="Application.catalanMemo" />
-        <item itemvalue="Application.catalanRec" />
       </list>
     </recent_temporary>
   </component>
