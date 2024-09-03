@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.*;
 public class bfs {
 
-    public class adjList {
+    public class BFS {
         static class Edge{      // we made this static to call this in psvm
             int src;
             int dest;
@@ -16,7 +16,7 @@ public class bfs {
         }
 
 
-        static void createGraph(ArrayList <Edge>graph[]){
+        static void createGraph(ArrayList <Edge>[]graph){
             for (int i = 0; i < graph.length; i++) {
                 graph[i] = new ArrayList<>();
             }
