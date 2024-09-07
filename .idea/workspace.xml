@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRAPHS/src/CycleDetection/undirectedDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/CycleDetection/undirectedDFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DFS">
+  <component name="RunManager" selected="Application.undirectedDFS">
     <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS" />
       <module name="GRAPHS" />
@@ -54,19 +55,6 @@
     </configuration>
     <configuration name="mcmMem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MCM.mcmMem" />
-      <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MCM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mcmRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MCM.mcmRec" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
@@ -98,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="undirectedDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CycleDetection.undirectedDFS" />
+      <module name="GRAPHS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CycleDetection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lec6 conditions and loops" />
       <method v="2">
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.undirectedDFS" />
         <item itemvalue="Application.DFS" />
         <item itemvalue="Application.minArrayJump" />
         <item itemvalue="Application.minimumPartitioning" />
         <item itemvalue="Application.mcmMem" />
-        <item itemvalue="Application.mcmRec" />
       </list>
     </recent_temporary>
   </component>
