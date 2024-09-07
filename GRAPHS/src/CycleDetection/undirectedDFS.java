@@ -20,13 +20,13 @@ public class undirectedDFS {
         //adding edges info at vertices
         //0 index
         graph[0].add(new Edge3(0, 1));
-        graph[0].add(new Edge3(0, 2));
+        //graph[0].add(new Edge3(0, 2));
         // 1 index
         graph[1].add(new Edge3(1, 0));
         graph[1].add(new Edge3(1, 2));
 
         //2 index
-        graph[2].add(new Edge3(2, 0));
+        //graph[2].add(new Edge3(2, 0));
         graph[2].add(new Edge3(2, 1));
 
         //3 index
@@ -50,15 +50,17 @@ public class undirectedDFS {
         for (int i = 0; i < graph[curr].size(); i++) {
             Edge3 e = graph[curr].get(i);
             //case 3
-            if (!vis[e.dest] && detectCycleutil(graph,vis,e.dest,curr)){
-                return true;
+            if (!vis[e.dest]) {
+                if (detectCycleutil(graph, vis, e.dest, curr)) {
+                    return true;
+                }
             }
-            //case 1
-            else if (vis[e.dest] && e.dest!=parent){
-                return true;
+                //case 1
+                else if (vis[e.dest] && e.dest != parent) {
+                    return true;
+                }
             }
             // do nothing for case 2
-        }
         return false;
     }
 
