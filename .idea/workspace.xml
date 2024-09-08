@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,14 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.topological_DFS">
-    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS" />
-      <module name="GRAPHS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.topological_bfs_kahns">
     <configuration name="bipartite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bipartite" />
       <module name="GRAPHS" />
@@ -73,8 +64,21 @@
       </method>
     </configuration>
     <configuration name="topological_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="topological_DFS" />
+      <option name="MAIN_CLASS_NAME" value="TopologicalSorting.topological_DFS" />
       <module name="GRAPHS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topological_bfs_kahns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopologicalSorting.topological_bfs_kahns" />
+      <module name="GRAPHS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TopologicalSorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.topological_bfs_kahns" />
         <item itemvalue="Application.topological_DFS" />
         <item itemvalue="Application.directedDFS" />
         <item itemvalue="Application.bipartite" />
         <item itemvalue="Application.undirectedDFS" />
-        <item itemvalue="Application.DFS" />
       </list>
     </recent_temporary>
   </component>
