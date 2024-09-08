@@ -55,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.bipartite">
+  <component name="RunManager" selected="Application.directedDFS">
     <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS" />
       <module name="GRAPHS" />
@@ -70,22 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minArrayJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minArrayJump" />
-      <module name="DP" />
+    <configuration name="directedDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CycleDetection.directedDFS" />
+      <module name="GRAPHS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CycleDetection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minimumPartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Knapsack.minimumPartitioning" />
+    <configuration name="minArrayJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minArrayJump" />
       <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Knapsack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.directedDFS" />
         <item itemvalue="Application.bipartite" />
         <item itemvalue="Application.undirectedDFS" />
         <item itemvalue="Application.DFS" />
         <item itemvalue="Application.minArrayJump" />
-        <item itemvalue="Application.minimumPartitioning" />
       </list>
     </recent_temporary>
   </component>
