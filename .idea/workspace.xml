@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/CycleDetection/undirectedDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/CycleDetection/undirectedDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRAPHS/src/bipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/bipartite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/CycleDetection/undirectedDFS$Edge3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/CycleDetection/undirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/DFS$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/adjList$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/adjList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/bfs$BFS$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/bfs$BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/bfs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/connectedComponents$Edge2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GRAPHS/connectedComponents.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.undirectedDFS">
+  <component name="RunManager" selected="Application.bipartite">
     <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS" />
       <module name="GRAPHS" />
@@ -53,15 +63,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mcmMem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MCM.mcmMem" />
-      <module name="DP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MCM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="bipartite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bipartite" />
+      <module name="GRAPHS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bipartite" />
         <item itemvalue="Application.undirectedDFS" />
         <item itemvalue="Application.DFS" />
         <item itemvalue="Application.minArrayJump" />
         <item itemvalue="Application.minimumPartitioning" />
-        <item itemvalue="Application.mcmMem" />
       </list>
     </recent_temporary>
   </component>
