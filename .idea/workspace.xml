@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.allPaths">
+  <component name="RunManager" selected="Application.dijkstraPQ">
     <configuration name="allPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="allPaths" />
       <module name="GRAPHS" />
@@ -50,8 +50,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bipartite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bipartite" />
+    <configuration name="dijkstraPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dijkstraPQ" />
       <module name="GRAPHS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dijkstraPQ" />
         <item itemvalue="Application.allPaths" />
         <item itemvalue="Application.topological_bfs_kahns" />
         <item itemvalue="Application.topological_DFS" />
         <item itemvalue="Application.directedDFS" />
-        <item itemvalue="Application.bipartite" />
       </list>
     </recent_temporary>
   </component>
