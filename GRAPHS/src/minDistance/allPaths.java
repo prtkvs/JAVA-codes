@@ -1,3 +1,5 @@
+package minDistance;
+
 import java.util.*;
 
 public class allPaths {
