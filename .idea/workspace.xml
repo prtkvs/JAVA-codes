@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/basics/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/TopologicalSorting/topological_bfs_kahns.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/TopologicalSorting/topological_bfs_kahns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/adjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/basics/adjList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/allPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/minDistance/allPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/bellmanFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/minDistance/bellmanFord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/basics/bfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/dijkstraPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/minDistance/dijkstraPQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GRAPHS/src/prims_MST.java" beforeDir="false" afterPath="$PROJECT_DIR$/GRAPHS/src/minDistance/prims_MST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
