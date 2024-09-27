@@ -42,7 +42,7 @@ public class bfs {
 
     }
 
-    public static void bfs(ArrayList<Edge> graph[]){
+    public static void bfs(ArrayList<Edge>[] graph){
         Queue <Integer> q = new LinkedList<>(); // queue to store elements
         boolean vis[] = new boolean[graph.length]; // visited array
 
