@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7835c48-841f-4f49-a5a5-ab80bfa3dd2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/src/MatrixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/src/MatrixSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DFS">
+  <component name="RunManager" selected="Application.MatrixSum">
     <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.DFS" />
       <module name="GRAPHS" />
@@ -58,6 +58,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixSum" />
+      <module name="Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="adjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.adjList" />
       <module name="GRAPHS" />
@@ -67,13 +74,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="allPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minDistance.allPaths" />
-      <module name="GRAPHS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixSum" />
         <item itemvalue="Application.DFS" />
         <item itemvalue="Application.bfs" />
         <item itemvalue="Application.adjList" />
         <item itemvalue="Application.dijkstraPQ" />
-        <item itemvalue="Application.allPaths" />
       </list>
     </recent_temporary>
   </component>

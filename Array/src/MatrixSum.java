@@ -20,8 +20,8 @@ public class MatrixSum {
         int c2 = sc.nextInt();
         int[][] matB = new int[r2][c2];
         System.out.println("Enter the data in matrix B:-");
-        for (int i = 0; i < matA.length ; i++) {
-            for (int j = 0; j <matA[i].length ; j++) {
+        for (int i = 0; i < matB.length ; i++) {
+            for (int j = 0; j <matB[i].length ; j++) {
                 matB[i][j] = sc.nextInt();
             }
         }
