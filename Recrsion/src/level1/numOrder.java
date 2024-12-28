@@ -21,9 +21,10 @@ public class numOrder {
     }
     static void numAsc(int n){
         if (n==0){
-            return;
+            return; // sirf "if" wale condition se return hua hai
+        }else {
+            numAsc(n - 1);
         }
-        numAsc(n-1);
         System.out.print(n);  //V.easy think (ya debug kr ke check kr lo)
     }
     static int fact(int n){
