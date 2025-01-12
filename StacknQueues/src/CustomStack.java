@@ -13,12 +13,12 @@ public class CustomStack {
     int ptr = -1;
 
     public boolean push(int item) {
-        ptr++;
-        data[ptr] = item;
         if (isFull()) {
             System.out.println("Stack is full!!");
             return false;
         }
+        ptr++;
+        data[ptr] = item;
         return true;
     }
 
