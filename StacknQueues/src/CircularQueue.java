@@ -4,7 +4,7 @@ public class CircularQueue {
 
     protected int end = 0;
     protected int front = 0;
-    private int size = 0;
+    private int end_ptr = 0;
 
     public CircularQueue(){
         this(DEFAULT_SIZE);
@@ -15,11 +15,11 @@ public class CircularQueue {
     }
 
     public boolean isFull() {
-        return size == data.length; // ptr is at last index
+        return end_ptr == data.length; // ptr is at last index
     }
 
     public boolean isEmpty() {
-        return size == 0;
+        return end_ptr == 0;
     }
 
     public boolean insert(int item) {
@@ -28,7 +28,7 @@ public class CircularQueue {
         }
         data[end++] = item;
         end = end % data.length;
-        size++;
+        end_ptr++;
         return true;
     }
 
@@ -39,7 +39,7 @@ public class CircularQueue {
 
         int removed = data[front++];
         front = front % data.length;
-        size--;
+        end_ptr--;
         return removed;
     }
 
