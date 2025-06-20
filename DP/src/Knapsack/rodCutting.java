@@ -17,7 +17,7 @@ public class rodCutting {
                 int w = length[i-1];    // ** ith item weight
                 if (w <= j){    // valid
                     //include
-                    int incProfit = price[i-1]+dp[i][j-w]; // check notes for clarity
+                    int incProfit = price[i-1]+dp[i][j-w]; // usko baar baar le skte hai isliye dp[i-1] nhi kiye since, unbounded knapsack
                     // exclude
                     int excProfit = dp[i-1][j];
                     dp[i][j] = Math.max(incProfit,excProfit);
