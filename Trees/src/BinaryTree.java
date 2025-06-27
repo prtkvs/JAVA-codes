@@ -1,106 +1,69 @@
 import java.util.Scanner;
-
-public class BinaryTree {
-    public BinaryTree() {
-    }
-    private static class Node{
-        int value;
-        Node left;
+public class BinaryTree{
+    class Node{
         Node right;
+        Node left;
+        int val;
 
-        public Node(int value) {
-            this.value = value;
+        public Node(int val){
+            this.val = val;
         }
     }
+
     private Node root;
-    //insert elements
-    public void populate(Scanner scanner){
-        System.out.print("Enter the root node: ");
-        int value = scanner.nextInt();    //no need of creating object of scanner
-        root = new Node(value);    //stored in new node as value so that we can access via node.value
-        populate(scanner,root);
+
+    //Insertion - a. root
+    public void insert(Scanner sc){
+        System.out.println("Enter root value:-");
+        int val = sc.nextInt();
+        root = new Node(val);
+        insert(sc,root);
     }
-    private void populate(Scanner scanner, Node node){
-        System.out.println("Do you want to enter left of: "+ node.value); //initially node.value is root node which changes as nodes inserted
-        boolean left = scanner.nextBoolean();  //left check
-        if(left){  //same as if(left == true)
-            System.out.println("Enter the left of: "+node.value);
-            int value = scanner.nextInt();
-            node.left= new Node(value);     //create a new node out of it
-            populate(scanner,node.left);    //call (recursion)populate again for newly created left node
-            } //if left == false :-
-        System.out.println("Do you want to enter right of: "+ node.value);
-        boolean right = scanner.nextBoolean();  //right check
+
+    //Insertion - b. nodes //Overloading
+    public void insert(Scanner sc, Node node){
+        System.out.println("To enter left of: "+node.val+" - enter true rather false");
+        boolean left = sc.nextBoolean();
+        if(left){
+            System.out.println("Enter left of: "+node.val);
+            int val = sc.nextInt();
+            node.left = new Node(val);
+            insert(sc, node.left);
+        }
+        /* if false then directly he means to enter for right
+        but we need to ask for this too - bcoz if user does'nt want to
+        enter right also, when user wants to stop insertion */
+        System.out.println("To enter right of: "+node.val+" - enter true rather false to stop");
+        boolean right = sc.nextBoolean();
         if(right){
-            System.out.println("Enter the right of: "+node.value);
-            int value = scanner.nextInt();
-            node.right= new Node(value);            //literally copy & paste of left concept
-            populate(scanner , node.right);
+            System.out.println("Enter right of: "+node.val);
+            int val = sc.nextInt();
+            node.right = new Node(val);
+            insert(sc, node.right);
         }
-        //no base condition (since jitna bada tree banana ho bana skte hai) for user
     }
-    public void display(){         ///display of the tree
-        display(this.root,"");
+
+    // Display - a. root
+    public void display(){  // DOUBT - correct
+        display(this.root,"  ");
+
     }
-    private void display(Node node , String indent){        //indentation is the way of representing the code ! (career essentials for SD microsoft lecture notes)
-        if(node==null){     //base condition
+    // Display - b. nodes
+    public void display(Node node, String indent){ //DOUBT - apply base condition
+        if(node==null){ //corrected
             return;
         }
-        System.out.println(indent+node.value);
-        display(node.left , indent +"  ");
-        display(node.right , indent +"  ");
+        System.out.print(node.val+indent);
+        display(node.left,indent);
+        display(node.right,indent);
+
     }
-    public void prettyDisplay(){
-        prettyDisplay(root,0);
-    }
-    private void prettyDisplay(Node node,int level){
-        if(node == null){
-            return;
-        }
-        prettyDisplay(node.right,level+1);
-        if (level!=0) {
-            for (int i = 0; i < level - 1; i++) {
-                System.out.print("|\t\t");
-            }
-            System.out.println("|------>" + node.value);
-        }else{
-                System.out.println(node.value);
-            }
-        prettyDisplay(node.left,level+1);
-        }
-    public void preOrder(){
-        preOrder(root);
-    }
-    private void preOrder(Node node){
-        if (node == null){
-            return;
-        }
-        System.out.print(node.value+" ");
-        preOrder(node.left);
-        preOrder(node.right);
-        System.out.println();
-    }
-    public void inOrder(){
-        preOrder(root);
-    }
-    private void inOrder(Node node){
-        if (node == null){
-            return;
-        }
-        preOrder(node.left);
-        System.out.print(node.value+" ");
-        preOrder(node.right);
-        System.out.println();
-    }
-    public void postOrder(){
-        preOrder(root);
-    }
-    private void postOrder(Node node){
-        if (node == null){
-            return;
-        }
-        preOrder(node.left);
-        preOrder(node.right);
-        System.out.print(node.value+" ");
-    }
-    }
+//    public static void main (String[] args) {
+//        BinaryTree tree = new BinaryTree();
+//        // enter root value only next will be decided by the user
+//        Scanner sc = new Scanner(System.in);
+//
+//        tree.insert(sc);
+//        tree.display();
+//    }
+}
