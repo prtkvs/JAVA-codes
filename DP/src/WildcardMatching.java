@@ -20,7 +20,7 @@ public class WildcardMatching{
         //s=0
         for (int j = 1; j < m+1; j++) {
             if (p.charAt(j-1)=='*'){
-                dp[0][j] = true;
+                dp[0][j] = dp[0][j-1];
             }
             //rest else already false
         }

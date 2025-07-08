@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114bade1-8470-4719-8763-f1a8b3382c89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WildcardMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/WildcardMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NOTES/DP.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../NOTES/DP.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="114bade1-8470-4719-8763-f1a8b3382c89" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
