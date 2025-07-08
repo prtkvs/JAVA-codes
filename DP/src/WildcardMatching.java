@@ -14,13 +14,13 @@ public class WildcardMatching{
         //initialize
         dp[0][0] = true;
         //p = 0 (agar pattern hi zero ho gaya to woh kabhi string nhi ban payega)
-        for (int i = 1; i <n+1 ; i++) {
-            dp[i][0]= false;
-        }
+//        for (int i = 1; i <n+1 ; i++) {
+//            dp[i][0]= false;
+//        }
         //s=0
         for (int j = 1; j < m+1; j++) {
-            if (p=="*"){
-                dp[0][j] = dp[0][j-1];
+            if (p.charAt(j-1)=='*'){
+                dp[0][j] = true;
             }
             //rest else already false
         }
