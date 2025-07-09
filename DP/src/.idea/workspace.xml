@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114bade1-8470-4719-8763-f1a8b3382c89" name="Changes" comment="" />
+    <list default="true" id="114bade1-8470-4719-8763-f1a8b3382c89" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MCM/mcmMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/MCM/mcmMem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

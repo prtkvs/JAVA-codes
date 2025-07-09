@@ -27,6 +27,6 @@ public class mcmMem {
             int finalCost = cost1+cost2+cost3;
             ans = Math.min(ans,finalCost);
         }
-        return ans;
+        return dp[i][j] = ans;
     }
 }
