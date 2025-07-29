@@ -5,7 +5,7 @@ public class IndianCoins {
             System.out.println("-------INDIAN COINS------");
 
             Integer[] coins = {1,2,5,10,20,50,100,200,500};
-            int V = 4000;
+            int V = 500;
             Arrays.sort(coins, Collections.reverseOrder());
             ArrayList<Integer> list = new ArrayList<>();
             int noOfCoins = 0;
@@ -16,7 +16,7 @@ public class IndianCoins {
                         noOfCoins++;
                         V -= coins[i];
                     }
-                }
+                } else if(V==0) break;
             }
             System.out.println("no. of Coins used : "+noOfCoins);
             for (int i=0;i<list.size();i++ ){

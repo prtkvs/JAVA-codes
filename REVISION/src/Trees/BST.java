@@ -61,9 +61,9 @@ public class BST {
 
     //delete
     public Node delete(Node root,int val) {
-        // if(root==null){
-        //     return; //how will you return, click kiya ye to hoga hi nhi
-        // }
+//         if(root==null){
+//             return null;
+//         } // redundant code - throws exception - cannot delete from empty tree
         if(val>root.data) {
             root.right = delete(root.right,val); //proceed futher
         }
