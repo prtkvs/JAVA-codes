@@ -56,7 +56,7 @@ public class adjList {
             int curr = q.poll();
 
             //check when to visit
-            while(!vis[curr]) {
+            if(!vis[curr]) {
                 System.out.print(curr+ " "); //Error-cleared(print if unvisited)
                 vis[curr] = true;
                 for(int i=0; i<graph[curr].size(); i++) {
