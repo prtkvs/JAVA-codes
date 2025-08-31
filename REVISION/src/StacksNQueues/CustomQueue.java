@@ -14,8 +14,8 @@ public class CustomQueue{
     }
     int end = 0;
 
-    //add items
-    public boolean add(int item){
+    //add items - add/offer
+    public boolean offer(int item){
         if(isFull()){
             return false;
         }
@@ -26,8 +26,8 @@ public class CustomQueue{
         return true;
     }
 
-    //remove items - remove
-    public int remove() throws Exception{
+    //remove items - poll/remove
+    public int poll() throws Exception{
         if(isEmpty()){
             throw new Exception("Cannot pop from an empty queue");
         }
@@ -77,13 +77,13 @@ public class CustomQueue{
 
     public static void main (String[] args) throws Exception {
         CustomQueue queue = new CustomQueue();
-        queue.add(1);
-        queue.add(2);
-        queue.add(3);
-        queue.add(4);
-        queue.add(5);
-        queue.add(6);
-        System.out.println(queue.remove());
+        queue.offer(1);
+        queue.offer(2);
+        queue.offer(3);
+        queue.offer(4);
+        queue.offer(5);
+        queue.offer(6);
+        System.out.println(queue.poll());
         System.out.println(queue.offer());
         queue.display();
     }
