@@ -42,7 +42,6 @@ public class CycleDFS {
             for(int i=0;i<graph.length;i++){
                 if(!vis[i]){
                     if(detectCycleDFSutil(graph,vis,i,-1)) return true;
-                    return false;
                 }
             }
             return false;
