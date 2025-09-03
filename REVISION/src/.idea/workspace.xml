@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0102fdb-507b-4067-8851-644cb59fc1e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../DP/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DP/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StacksNQueues/CustomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/StacksNQueues/CustomQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
